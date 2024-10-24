@@ -6,7 +6,7 @@ COPY . /app
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 5001
 
 ENTRYPOINT ["npm", "run"]
 
