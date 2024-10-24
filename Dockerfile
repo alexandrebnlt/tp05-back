@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY * /app
+COPY . /app
 
 EXPOSE 3000
 
